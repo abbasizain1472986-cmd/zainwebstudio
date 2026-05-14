@@ -152,7 +152,7 @@ h6 {
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
 }
 .header .logo {
-  line-height: 1;
+  line-height: 5;
 }
 
 .header .logo img {
@@ -199,6 +199,27 @@ h6 {
   .header .navmenu {
     order: 3;
   }
+}
+.whatsapp-btn{
+    position: fixed;
+    right: 15px;
+    bottom: 70px; /* Scroll top button se upar */
+    width: 50px;
+    height: 50px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 28px;
+    z-index: 9999;
+    transition: 0.3s;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover{
+    background: #1ebe5d;
+    transform: scale(1.1);
+    color: #fff;
 }
 
 /* Global Header on Scroll
