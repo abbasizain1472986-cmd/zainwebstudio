@@ -204,12 +204,12 @@ h6 {
     position: fixed;
     right: 15px;
     bottom: 70px; /* Scroll top button se upar */
-    width: 50px;
-    height: 50px;
-    background: #25D366;
+    width: 45px;
+    height: 45px;
+    background: #19c859;
     color: #fff;
     border-radius: 50%;
-    font-size: 28px;
+    font-size: 25px;
     z-index: 9999;
     transition: 0.3s;
     text-decoration: none;
@@ -217,7 +217,7 @@ h6 {
 }
 
 .whatsapp-btn:hover{
-    background: #1ebe5d;
+    background: #18a04e;
     transform: scale(1.1);
     color: #fff;
 }
